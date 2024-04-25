@@ -21,6 +21,13 @@ function doubler(nums) {
     /* Takes an array of numbers and returns a new array where every element of
     the original array is multiplied by 2. */
     // Your code here
+    let newArray = [];
+
+    for (let i=0; i <= nums; i++) {
+        newArray.push(num2 * 2);
+    }
+
+    return newArray;
 };
 
 function combineArrays(arr1, arr2) {
