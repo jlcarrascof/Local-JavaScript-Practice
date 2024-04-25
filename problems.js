@@ -37,6 +37,7 @@ function combineArrays(arr1, arr2) {
     calling this method won't permanently change, also known as **mutate**,
     either array. */
     // Your code here
+
 };
 
 function wordWithinArray(word, arr) {
