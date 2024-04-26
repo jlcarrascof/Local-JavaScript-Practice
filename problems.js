@@ -101,6 +101,10 @@ function hello(name) {
 function goodbye(name) {
     /* Takes in a string name and returns a string saying "Bye, " to that name. */
     // Your code here
+
+    const myStr = "Bye, " + name;
+
+    return myStr;
 };
 
 function isFive(num) {
