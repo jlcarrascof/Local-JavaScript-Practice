@@ -63,6 +63,9 @@ function echo(str) {
     echo("hey"); // => returns "HEY ... hey ... hey"
     echo("JUMp"); // => returns "JUMP ... JUMp ... jump" */
     // Your code here
+    var myStr = "";
+    myStr = str.toUpperCase() + " ... " + str + " ... " + str.toLowerCase();
+    return myStr;
 };
 
 function fizzBuzz(max) {
