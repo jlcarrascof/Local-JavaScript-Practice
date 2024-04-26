@@ -111,6 +111,12 @@ function isFive(num) {
     /* Takes in a number, num, and returns `true` if a number is equal to 5 and
     `false` if it is not. */
     // Your code here
+
+    if (num === 5) {
+        return true;
+    } else {
+        return false;
+    }
 };
 
 function isOdd(num) {
