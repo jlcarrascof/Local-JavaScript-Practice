@@ -6,7 +6,7 @@ In this practice, you will be taking some of the exercises you performed in Part
 The problems will be reiterated again, and your job is to write the solution
 for each problem within the provided function declarations.
 
-Download the starter [here][starter].
+Download the starter [here].
 
 DO NOT copy and paste your old answers.  Use this opportunity to apply
 what you have learned to practice re-solving problems.  If you get stuck,
@@ -28,5 +28,3 @@ npm run test
 ```
 
 If your tests aren't running, make sure Mocha is installed globally.
-
-[starter]: https://github.com/appacademy/practice-for-week-PREP-js-repeat-local
