@@ -18,9 +18,9 @@ function aCounter(word) {
     */
     // Your code here
 
-    const count = 0;
+    var count = 0;
     for (let i=0; i < word.length; i++) {
-        const char = word[i];
+        var char = word[i];
         if (char === "a" || char === "A") {
             count += 1;
         }
@@ -28,3 +28,6 @@ function aCounter(word) {
 
     return count;
 };
+
+let numbers = aCounter("AafjflkdajddjdAsjdaA");
+console.log("We have " + numbers + " letters 'A' or 'a' in the word");
