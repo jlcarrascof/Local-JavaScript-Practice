@@ -138,13 +138,11 @@ function isSubString(searchString, subString) {
     or lower case, and `false` if otherwise. */
     // Your code here
 
-    const myStr = subString.toLowerCase();
+    const myStr = searchString.toLowerCase();
 
-    if (myStr.includes(searchString.toLowerCase())) {
-        console.log(subString + ' is in ' + searchString)
+    if (myStr.includes(subString.toLowerCase())) {
         return true;
     } else {
-        console.log('false');
         return false;
     }
 };
