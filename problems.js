@@ -92,6 +92,10 @@ function fizzBuzz(max) {
 function hello(name) {
     /* Takes in a string name and returns a string saying "Hello, " to that name. */
     // Your code here
+
+    const myStr = "Hello, " + name;
+
+    return myStr;
 };
 
 function goodbye(name) {
