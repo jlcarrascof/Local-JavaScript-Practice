@@ -4,9 +4,9 @@ function isSubString(searchString, subString) {
     or lower case, and `false` if otherwise. */
     // Your code here
 
-    const myStr = subString.toLowerCase();
+    const myStr = searchString.toLowerCase();
 
-    if (myStr.includes(searchString.toLowerCase())) {
+    if (myStr.includes(subString.toLowerCase())) {
         console.log(subString + ' is in ' + searchString)
         return true;
     } else {
@@ -15,4 +15,4 @@ function isSubString(searchString, subString) {
     }
 };
 
-isSubString('Javier', 'JAVIER Martinez is a programmer');
+isSubString('JAVIER Martinez is a programmer', 'Javier');
