@@ -77,12 +77,16 @@ function fizzBuzz(max) {
     for (let i=1; i < max; i++) {
         if (i % 3 === 0) {
             finalArray.push(i);
+            if (i % 5 === 0) {
+                finalArray.pop(i);
+            }
         } else if (i % 5 === 0) {
             finalArray.push(i);
         }
     }
 
     return finalArray;
+
 };
 
 function hello(name) {
