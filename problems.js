@@ -123,6 +123,13 @@ function isOdd(num) {
     /* Takes in a number and returns `true` if the number is odd and returns
     `false` otherwise. Try writing this with and without `if` statements */
     // Your code here
+
+    if (num % 2 !== 0) {
+        return true;
+    } else {
+        return false;
+    }
+
 };
 
 function isSubString(searchString, subString) {
